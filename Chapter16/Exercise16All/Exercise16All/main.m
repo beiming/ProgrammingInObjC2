@@ -118,12 +118,13 @@ int exercise7()
 
 void exercise8()
 {
-    NSString *path,*gitPath = @"/Users/peixinLiu/Dropbox/ObjectiveC/ProgrammingInObjC2/", *objDirName = @".git";
+    NSString *path,*gitPath = @"/Users/peixinLiu/Dropbox/ObjectiveC/ProgrammingInObjC2/", *objDirName = @".git_pass";
     NSFileManager *fm = [NSFileManager defaultManager];
     NSDirectoryEnumerator *dirEnum = [fm enumeratorAtPath:gitPath];
     BOOL isDir;
     while ((path = [dirEnum nextObject]) != nil)
     {
+        //if path is not exist isdir in undefined
         [fm fileExistsAtPath:[gitPath stringByAppendingPathComponent:path] isDirectory:&isDir];
         if(isDir && [path.lastPathComponent isEqualToString:objDirName])
         {

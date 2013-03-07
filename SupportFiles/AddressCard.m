@@ -10,23 +10,23 @@
 #import <stdio.h>
 
 @implementation AddressCard
-@synthesize name, email, state, city;
 -(id)initWithName:(NSString *)n email:(NSString *)e city:(NSString *)c
 {
     self = [super init];
     if(self)
     {
-        self.name = n;
-        self.email = e;
-        self.city = c;
+        _name = [[NSString alloc] initWithString:n];
+        _email = [[NSString alloc] initWithString:e];
+        _city = [[NSString alloc] initWithString:c];
     }
     return self;
 }
 -(void)dealloc
 {
-    [name release];
-    [email release];
-    [city release];
+    NSLog(@"address card %@ dealloc", self.name);
+    [_name release];
+    [_email release];
+    [_city release];
     [super dealloc];
 }
 -(void)print

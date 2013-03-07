@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28E5BC9916E8DE110004A794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28E5BC9816E8DE110004A794 /* Foundation.framework */; };
+		28E5BC9C16E8DE110004A794 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E5BC9B16E8DE110004A794 /* main.m */; };
+		28E5BCA016E8DE110004A794 /* TestARC.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 28E5BC9F16E8DE110004A794 /* TestARC.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		28E5BC9316E8DE110004A794 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				28E5BCA016E8DE110004A794 /* TestARC.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		28E5BC9516E8DE110004A794 /* TestARC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestARC; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E5BC9816E8DE110004A794 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28E5BC9B16E8DE110004A794 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28E5BC9E16E8DE110004A794 /* TestARC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestARC-Prefix.pch"; sourceTree = "<group>"; };
+		28E5BC9F16E8DE110004A794 /* TestARC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TestARC.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28E5BC9216E8DE110004A794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E5BC9916E8DE110004A794 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28E5BC8C16E8DE110004A794 = {
+			isa = PBXGroup;
+			children = (
+				28E5BC9A16E8DE110004A794 /* TestARC */,
+				28E5BC9716E8DE110004A794 /* Frameworks */,
+				28E5BC9616E8DE110004A794 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28E5BC9616E8DE110004A794 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28E5BC9516E8DE110004A794 /* TestARC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28E5BC9716E8DE110004A794 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28E5BC9816E8DE110004A794 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28E5BC9A16E8DE110004A794 /* TestARC */ = {
+			isa = PBXGroup;
+			children = (
+				28E5BC9B16E8DE110004A794 /* main.m */,
+				28E5BC9F16E8DE110004A794 /* TestARC.1 */,
+				28E5BC9D16E8DE110004A794 /* Supporting Files */,
+			);
+			path = TestARC;
+			sourceTree = "<group>";
+		};
+		28E5BC9D16E8DE110004A794 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28E5BC9E16E8DE110004A794 /* TestARC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28E5BC9416E8DE110004A794 /* TestARC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28E5BCA316E8DE110004A794 /* Build configuration list for PBXNativeTarget "TestARC" */;
+			buildPhases = (
+				28E5BC9116E8DE110004A794 /* Sources */,
+				28E5BC9216E8DE110004A794 /* Frameworks */,
+				28E5BC9316E8DE110004A794 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestARC;
+			productName = TestARC;
+			productReference = 28E5BC9516E8DE110004A794 /* TestARC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28E5BC8D16E8DE110004A794 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "peixin liu";
+			};
+			buildConfigurationList = 28E5BC9016E8DE110004A794 /* Build configuration list for PBXProject "TestARC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 28E5BC8C16E8DE110004A794;
+			productRefGroup = 28E5BC9616E8DE110004A794 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28E5BC9416E8DE110004A794 /* TestARC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28E5BC9116E8DE110004A794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28E5BC9C16E8DE110004A794 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		28E5BCA116E8DE110004A794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		28E5BCA216E8DE110004A794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		28E5BCA416E8DE110004A794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestARC/TestARC-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28E5BCA516E8DE110004A794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestARC/TestARC-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28E5BC9016E8DE110004A794 /* Build configuration list for PBXProject "TestARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E5BCA116E8DE110004A794 /* Debug */,
+				28E5BCA216E8DE110004A794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28E5BCA316E8DE110004A794 /* Build configuration list for PBXNativeTarget "TestARC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28E5BCA416E8DE110004A794 /* Debug */,
+				28E5BCA516E8DE110004A794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28E5BC8D16E8DE110004A794 /* Project object */;
+}

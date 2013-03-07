@@ -5,18 +5,15 @@
 //  Created by peixin liu on 3/1/13.
 //  Copyright (c) 2013 peixin liu. All rights reserved.
 //
-
 #import "AddressBook.h"
-
 @implementation AddressBook
-@synthesize bookName;
 -(id)initWithBookName:(NSString *)name
 {
     self = [super init];
     if(self)
     {
         
-        bookName = [[NSString alloc] initWithString:name];
+        _bookName = [[NSString alloc] initWithString:name];
         books = [[NSMutableArray alloc] init];
         cardProperty = [[NSSet alloc] initWithObjects:@"name", @"email", @"city", nil];
     }
@@ -50,7 +47,7 @@
 }
 -(void)list
 {
-    printf("========== Contents of: %s total:%i ==========\n", [bookName UTF8String], [self entries]);
+    printf("========== Contents of: %s total:%i ==========\n", [self.bookName UTF8String], [self entries]);
     for(AddressCard *card in books)
     {
         for(NSString *key in cardProperty)
@@ -105,8 +102,10 @@
 }
 - (void)dealloc
 {
-    [bookName release];
+    NSLog(@"address book %@ dealloc", _bookName);
+    [_bookName release];
     [books release];
+    [cardProperty release];
     [super dealloc];
 }
 @end
