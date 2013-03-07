@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2894846416DFA82E003329C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2894846316DFA82E003329C3 /* Foundation.framework */; };
+		2894847316DFA8CA003329C3 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 2894847216DFA8CA003329C3 /* Fraction.m */; };
+		289484A216E0DF6D003329C3 /* NSCalendarDate+ElapsedDays.m in Sources */ = {isa = PBXBuildFile; fileRef = 289484A116E0DF6D003329C3 /* NSCalendarDate+ElapsedDays.m */; };
+		289484A516E0DFBE003329C3 /* AddressCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 289484A416E0DFBE003329C3 /* AddressCard.m */; };
+		289484A816E0DFEA003329C3 /* AddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 289484A716E0DFEA003329C3 /* AddressBook.m */; };
+		289484AD16E23044003329C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 289484AC16E23044003329C3 /* main.m */; };
+		28E5BBCB16E3906B0004A794 /* Fraction+Comparison.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E5BBCA16E3906B0004A794 /* Fraction+Comparison.m */; };
+		28E5BBD116E493720004A794 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E5BBD016E493720004A794 /* Song.m */; };
+		28E5BBD416E493850004A794 /* PlayList.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E5BBD316E493850004A794 /* PlayList.m */; };
+		28E5BBD716E4939C0004A794 /* MusicCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E5BBD616E4939C0004A794 /* MusicCollection.m */; };
+		28E5BBDD16E5E2940004A794 /* TestSelfPropertyWithSong.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E5BBDC16E5E2940004A794 /* TestSelfPropertyWithSong.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2894845E16DFA82E003329C3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2894846016DFA82E003329C3 /* Exercise15All */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Exercise15All; sourceTree = BUILT_PRODUCTS_DIR; };
+		2894846316DFA82E003329C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2894846916DFA82E003329C3 /* Exercise15All-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercise15All-Prefix.pch"; sourceTree = "<group>"; };
+		2894847116DFA8CA003329C3 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fraction.h; path = ../../../../SupportFiles/Fraction.h; sourceTree = "<group>"; };
+		2894847216DFA8CA003329C3 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fraction.m; path = ../../../../SupportFiles/Fraction.m; sourceTree = "<group>"; };
+		289484A016E0DF6D003329C3 /* NSCalendarDate+ElapsedDays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSCalendarDate+ElapsedDays.h"; path = "../../../../SupportFiles/NSCalendarDate+ElapsedDays.h"; sourceTree = "<group>"; };
+		289484A116E0DF6D003329C3 /* NSCalendarDate+ElapsedDays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSCalendarDate+ElapsedDays.m"; path = "../../../../SupportFiles/NSCalendarDate+ElapsedDays.m"; sourceTree = "<group>"; };
+		289484A316E0DFBE003329C3 /* AddressCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddressCard.h; path = ../../../../SupportFiles/AddressCard.h; sourceTree = "<group>"; };
+		289484A416E0DFBE003329C3 /* AddressCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddressCard.m; path = ../../../../SupportFiles/AddressCard.m; sourceTree = "<group>"; };
+		289484A616E0DFEA003329C3 /* AddressBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddressBook.h; path = ../../../../SupportFiles/AddressBook.h; sourceTree = "<group>"; };
+		289484A716E0DFEA003329C3 /* AddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddressBook.m; path = ../../../../SupportFiles/AddressBook.m; sourceTree = "<group>"; };
+		289484AC16E23044003329C3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		289484AE16E23067003329C3 /* Exercise15All.1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.man; path = Exercise15All.1; sourceTree = "<group>"; };
+		28E5BBC916E3906B0004A794 /* Fraction+Comparison.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Fraction+Comparison.h"; path = "../../../../SupportFiles/Fraction+Comparison.h"; sourceTree = "<group>"; };
+		28E5BBCA16E3906B0004A794 /* Fraction+Comparison.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Fraction+Comparison.m"; path = "../../../../SupportFiles/Fraction+Comparison.m"; sourceTree = "<group>"; };
+		28E5BBCF16E493720004A794 /* Song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Song.h; path = ../../../../SupportFiles/Song.h; sourceTree = "<group>"; };
+		28E5BBD016E493720004A794 /* Song.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Song.m; path = ../../../../SupportFiles/Song.m; sourceTree = "<group>"; };
+		28E5BBD216E493850004A794 /* PlayList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayList.h; path = ../../../../SupportFiles/PlayList.h; sourceTree = "<group>"; };
+		28E5BBD316E493850004A794 /* PlayList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayList.m; path = ../../../../SupportFiles/PlayList.m; sourceTree = "<group>"; };
+		28E5BBD516E4939C0004A794 /* MusicCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MusicCollection.h; path = ../../../../SupportFiles/MusicCollection.h; sourceTree = "<group>"; };
+		28E5BBD616E4939C0004A794 /* MusicCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MusicCollection.m; path = ../../../../SupportFiles/MusicCollection.m; sourceTree = "<group>"; };
+		28E5BBDB16E5E2940004A794 /* TestSelfPropertyWithSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSelfPropertyWithSong.h; sourceTree = "<group>"; };
+		28E5BBDC16E5E2940004A794 /* TestSelfPropertyWithSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSelfPropertyWithSong.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2894845D16DFA82E003329C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2894846416DFA82E003329C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2894845716DFA82E003329C3 = {
+			isa = PBXGroup;
+			children = (
+				2894846516DFA82E003329C3 /* Exercise15All */,
+				2894846216DFA82E003329C3 /* Frameworks */,
+				2894846116DFA82E003329C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2894846116DFA82E003329C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2894846016DFA82E003329C3 /* Exercise15All */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2894846216DFA82E003329C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2894846316DFA82E003329C3 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2894846516DFA82E003329C3 /* Exercise15All */ = {
+			isa = PBXGroup;
+			children = (
+				28E5BBDB16E5E2940004A794 /* TestSelfPropertyWithSong.h */,
+				28E5BBDC16E5E2940004A794 /* TestSelfPropertyWithSong.m */,
+				289484AC16E23044003329C3 /* main.m */,
+				289484AE16E23067003329C3 /* Exercise15All.1 */,
+				2894846816DFA82E003329C3 /* Supporting Files */,
+			);
+			path = Exercise15All;
+			sourceTree = "<group>";
+		};
+		2894846816DFA82E003329C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28E5BBC916E3906B0004A794 /* Fraction+Comparison.h */,
+				28E5BBCA16E3906B0004A794 /* Fraction+Comparison.m */,
+				289484A016E0DF6D003329C3 /* NSCalendarDate+ElapsedDays.h */,
+				289484A116E0DF6D003329C3 /* NSCalendarDate+ElapsedDays.m */,
+				2894847116DFA8CA003329C3 /* Fraction.h */,
+				2894847216DFA8CA003329C3 /* Fraction.m */,
+				289484A316E0DFBE003329C3 /* AddressCard.h */,
+				289484A416E0DFBE003329C3 /* AddressCard.m */,
+				289484A616E0DFEA003329C3 /* AddressBook.h */,
+				289484A716E0DFEA003329C3 /* AddressBook.m */,
+				2894846916DFA82E003329C3 /* Exercise15All-Prefix.pch */,
+				28E5BBCF16E493720004A794 /* Song.h */,
+				28E5BBD016E493720004A794 /* Song.m */,
+				28E5BBD216E493850004A794 /* PlayList.h */,
+				28E5BBD316E493850004A794 /* PlayList.m */,
+				28E5BBD516E4939C0004A794 /* MusicCollection.h */,
+				28E5BBD616E4939C0004A794 /* MusicCollection.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2894845F16DFA82E003329C3 /* Exercise15All */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2894846E16DFA82E003329C3 /* Build configuration list for PBXNativeTarget "Exercise15All" */;
+			buildPhases = (
+				2894845C16DFA82E003329C3 /* Sources */,
+				2894845D16DFA82E003329C3 /* Frameworks */,
+				2894845E16DFA82E003329C3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Exercise15All;
+			productName = Exercise15All;
+			productReference = 2894846016DFA82E003329C3 /* Exercise15All */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2894845816DFA82E003329C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "peixin liu";
+			};
+			buildConfigurationList = 2894845B16DFA82E003329C3 /* Build configuration list for PBXProject "Exercise15All" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2894845716DFA82E003329C3;
+			productRefGroup = 2894846116DFA82E003329C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2894845F16DFA82E003329C3 /* Exercise15All */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2894845C16DFA82E003329C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2894847316DFA8CA003329C3 /* Fraction.m in Sources */,
+				289484A216E0DF6D003329C3 /* NSCalendarDate+ElapsedDays.m in Sources */,
+				289484A516E0DFBE003329C3 /* AddressCard.m in Sources */,
+				289484A816E0DFEA003329C3 /* AddressBook.m in Sources */,
+				289484AD16E23044003329C3 /* main.m in Sources */,
+				28E5BBCB16E3906B0004A794 /* Fraction+Comparison.m in Sources */,
+				28E5BBD116E493720004A794 /* Song.m in Sources */,
+				28E5BBD416E493850004A794 /* PlayList.m in Sources */,
+				28E5BBD716E4939C0004A794 /* MusicCollection.m in Sources */,
+				28E5BBDD16E5E2940004A794 /* TestSelfPropertyWithSong.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2894846C16DFA82E003329C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2894846D16DFA82E003329C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2894846F16DFA82E003329C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercise15All/Exercise15All-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2894847016DFA82E003329C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Exercise15All/Exercise15All-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2894845B16DFA82E003329C3 /* Build configuration list for PBXProject "Exercise15All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2894846C16DFA82E003329C3 /* Debug */,
+				2894846D16DFA82E003329C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2894846E16DFA82E003329C3 /* Build configuration list for PBXNativeTarget "Exercise15All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2894846F16DFA82E003329C3 /* Debug */,
+				2894847016DFA82E003329C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2894845816DFA82E003329C3 /* Project object */;
+}

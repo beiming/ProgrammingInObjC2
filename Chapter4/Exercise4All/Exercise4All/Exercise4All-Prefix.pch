@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Exercise4All' target in the 'Exercise4All' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
