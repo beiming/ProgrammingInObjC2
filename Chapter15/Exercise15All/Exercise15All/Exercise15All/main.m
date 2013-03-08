@@ -42,9 +42,9 @@ int main(int argc, const char * argv[])
         //exercise9();
         //exercise10();
         //exercise11();
-        //exercise12();
+        exercise12();
         //exercise13();
-        exercise14();
+        //exercise14();
     }
     return 0;
 }
@@ -327,14 +327,32 @@ void exercise12()
 //    TestSelfPropertyWithSong *testSong = [[TestSelfPropertyWithSong alloc] initWithDefaultSong];
 
 //    testSong.testSong = song;
-    
-    [songName release];
 
     printf("%s, %lu\n", [song.name UTF8String], song.name.retainCount);
     [song release];
-    [testSong release];
     
-    }
+    
+    [songName release];
+    testSong->publicVar = 1;
+    //    testSong->privateVar = 2;//不能访问
+    //    testSong->protectedVar = 3;//不能访问
+    //testSong->publicVarinImplementation = 4;
+    
+    //所有属性都可以通过setValue valueForKey访问
+    [testSong setValue:@4 forKey:@"publicVarinImplementation"];
+    NSLog(@"publicVarinImplementation %@", [testSong valueForKey:@"publicVarinImplementation"]);
+    
+    [testSong setValue:@3 forKey:@"protectedVar"];
+    NSLog(@"protectedVar %@", [testSong valueForKey:@"protectedVar"]);
+    
+    [testSong setValue:@2 forKey:@"privateVar"];
+    NSLog(@"privateVar %@", [testSong valueForKey:@"privateVar"]);
+    
+    //testSong.test = @"test";
+    [testSong setValue:@"test" forKey:@"test"];
+    [testSong performSelector:@selector(privateFunc)];
+    [testSong release];
+}
 
 void exercise13()
 {

@@ -7,6 +7,15 @@
 //
 
 #import "TestSelfPropertyWithSong.h"
+@interface TestSelfPropertyWithSong()
+{
+    @public
+    int publicVarinImplementation;
+}
+//这里也可以重新设置属性全县，对内，对外
+@property (assign, nonatomic, readwrite)NSString *test;
+-(void)privateFunc;
+@end
 
 @implementation TestSelfPropertyWithSong
 //如果写上这句，则不会自动生成_xxx,xxx于self.xxx不同
@@ -52,5 +61,13 @@
     [_testSong release];
     //NSLog(@"dealloc %lu", [_testSong retainCount]);
     [super dealloc];
+}
+-(void)privateFunc
+{
+    if(self.test == nil)
+    {
+        self.test = @"www";
+    }
+    NSLog(@"This is private function, %@", self.test);
 }
 @end

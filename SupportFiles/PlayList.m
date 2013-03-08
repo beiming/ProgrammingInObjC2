@@ -7,6 +7,14 @@
 //
 
 #import "PlayList.h"
+//如此定义私有属性和方法
+//也可以设置property readonly 等，比如.h里设置为readonly，.m里设置为readwrite，则对外只读，对内没限制
+@interface PlayList()
+{
+    @private
+    NSMutableDictionary *songs;
+}
+@end
 
 @implementation PlayList
 @synthesize name;

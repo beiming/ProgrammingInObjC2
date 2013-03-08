@@ -7,6 +7,12 @@
 //
 
 #import "MusicCollection.h"
+@interface MusicCollection()
+{
+    @private
+    NSMutableArray *playListArr;
+}
+@end
 @implementation MusicCollection
 -(id)init
 {

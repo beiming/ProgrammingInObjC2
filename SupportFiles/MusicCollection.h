@@ -11,10 +11,7 @@
 #import "Song.h"
 @interface MusicCollection : NSObject
 {
-    @public
     PlayList *library;
-    @private
-    NSMutableArray *playListArr;
 }
 -(id)init;
 -(id)initWithPlayList:(PlayList *)list1, ...;

@@ -10,9 +10,6 @@
 #import "Song.h"
 @interface PlayList : NSObject
 {
-    @private
-    NSMutableDictionary *songs;
-    @public
     NSMutableArray *songsKeyIndex;
 }
 @property (copy, nonatomic)NSString *name;
