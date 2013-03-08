@@ -37,4 +37,16 @@
 {
     NSLog(@"(%.2f,%.2f)", x, y);
 }
+-(id)copyWithZone:(NSZone *)zone
+{
+    XYPoint *point = [[XYPoint allocWithZone:zone] init];
+    point.x = self.x;
+    point.y = self.y;
+    return point;
+}
+-(void)dealloc
+{
+    NSLog(@"XYPoint (%.2f,%.2f) release", x, y);
+    [super dealloc];
+}
 @end

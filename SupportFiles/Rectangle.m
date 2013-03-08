@@ -63,8 +63,7 @@
     if(point != origin)
     {
         [origin release];
-        origin = [[XYPoint alloc] init];
-        [origin setX:[point x] andY:[point y]];
+        origin = [point copy];
     }
 }
 - (XYPoint *)origin
@@ -126,7 +125,14 @@
 }
 - (void)dealloc
 {
+    NSLog(@"Rectangle (%.2f,%.2f) relrease", width, height);
     [origin release];
     [super dealloc];
+}
+-(id)copyWithZone:(NSZone *)zone
+{
+    Rectangle *rect = [[Rectangle allocWithZone:zone] initWithWidth:self.width andHeight:self.height];
+    rect.origin = self.origin;
+    return rect;
 }
 @end

@@ -8,14 +8,13 @@
 
 #import <Foundation/Foundation.h>
 #import "AddressCard.h"
+static NSSet *cardProperty = nil;
 
-@interface AddressBook : NSObject
+@interface AddressBook : NSObject <NSCopying>
 {
-    @private
-    NSMutableArray *books;
-    NSSet *cardProperty;
 }
 @property(copy, nonatomic) NSString * bookName;
+@property(copy, nonatomic) NSMutableArray *books;
 -(id)initWithBookName:(NSString *)name;
 
 -(void)addCard:(AddressCard *) theCard;
@@ -30,4 +29,6 @@
 -(NSArray *)lookupFromEmail:(NSString *)theEmail;
 
 -(void)dealloc;
+
+-(id)copyWithZone:(NSZone *)zone;
 @end

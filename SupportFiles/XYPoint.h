@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface XYPoint : NSObject
+@interface XYPoint : NSObject <NSCopying>
 {
     float x;
     float y;
@@ -21,4 +21,6 @@
 -(float) x;
 -(float) y;
 -(void) print;
+-(id)copyWithZone:(NSZone *)zone;
+-(void)dealloc;
 @end

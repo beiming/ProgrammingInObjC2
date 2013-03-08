@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "XYPoint.h"
 #import "GraphicObject.h"
-@interface Rectangle : GraphicObject
+@interface Rectangle : GraphicObject <NSCopying>
 {
     float width;
     float height;
@@ -32,4 +32,5 @@
 -(void) translate:(XYPoint*) point;
 
 -(Rectangle*) intersect:(Rectangle*) rect;
+-(id)copyWithZone:(NSZone *)zone;
 @end
