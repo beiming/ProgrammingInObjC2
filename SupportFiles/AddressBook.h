@@ -10,11 +10,12 @@
 #import "AddressCard.h"
 static NSSet *cardProperty = nil;
 
-@interface AddressBook : NSObject <NSCopying>
+@interface AddressBook : NSObject <NSCopying, NSCoding>
 {
 }
 @property(copy, nonatomic) NSString * bookName;
 @property(copy, nonatomic) NSMutableArray *books;
++(void)initcardProperty;
 -(id)initWithBookName:(NSString *)name;
 
 -(void)addCard:(AddressCard *) theCard;
@@ -31,4 +32,7 @@ static NSSet *cardProperty = nil;
 -(void)dealloc;
 
 -(id)copyWithZone:(NSZone *)zone;
+
+-(void)encodeWithCoder:(NSCoder *)aCoder;
+-(id)initWithCoder:(NSCoder *)aDecoder;
 @end

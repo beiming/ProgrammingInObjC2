@@ -10,7 +10,6 @@
 
 int main(int argc, const char * argv[])
 {
-
     @autoreleasepool
     {
         NSMutableString *str = [[NSMutableString alloc] initWithString:@"hello "];
@@ -19,4 +18,3 @@ int main(int argc, const char * argv[])
     }
     return 0;
 }
-

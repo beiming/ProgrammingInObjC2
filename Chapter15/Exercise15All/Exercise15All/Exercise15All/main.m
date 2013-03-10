@@ -370,7 +370,6 @@ void exercise13()
     [str1 release];
     [str2 release];
     //[array release];
-
 }
 
 void exercise14()
