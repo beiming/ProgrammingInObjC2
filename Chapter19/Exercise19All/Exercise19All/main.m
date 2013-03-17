@@ -20,11 +20,11 @@ int main(int argc, const char * argv[])
 {
     @autoreleasepool
     {
-        //exercise1();
+        exercise1();
         //exercise2();
         //exercise3();
         //exercise4();
-        exercise4_follow();
+        //exercise4_follow();
     }
     return 0;
 }
