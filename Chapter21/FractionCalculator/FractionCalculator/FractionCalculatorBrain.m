@@ -7,6 +7,8 @@
 //
 
 #import "FractionCalculatorBrain.h"
+#import "CommonVariable.h"
+
 @implementation FractionCalculatorBrain
 - (id)init
 {

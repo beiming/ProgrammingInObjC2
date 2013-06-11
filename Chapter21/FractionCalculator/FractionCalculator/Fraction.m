@@ -74,7 +74,7 @@
 {
     if(self.donominator != DEFAULT_NUMBER)
     {
-        return (double) (self.numerator / self.donominator);
+        return  (double) self.numerator / self.donominator;
     }
     else {
         return DEFAULT_NUMBER;

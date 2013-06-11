@@ -86,6 +86,11 @@
 }
 
 - (IBAction)clickOperate:(UIButton *)sender {
+    if(needClear)
+    {
+        [self clickClear:nil];
+        return;
+    }
     currentNumber = [currentNumberString intValue];
     if(isNumerator)
     {
@@ -159,5 +164,14 @@
 }
 
 - (IBAction)clickConvert:(id)sender {
+    if(firstOperand && !isNumerator)
+    {
+        currentNumber = [currentNumberString intValue];
+        brain.operand1.donominator = currentNumber;
+    
+        [self.display setText:[NSString stringWithFormat:@"%.3f", [brain.operand1 convertToNum]]];
+        needClear = YES;
+        [self resultClean];
+    }
 }
 @end

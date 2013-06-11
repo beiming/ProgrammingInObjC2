@@ -69,11 +69,50 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "FractionCalculator/FractionCalculatorViewController.m"
-         timestampString = "385215433.298033"
+         timestampString = "392647844.149014"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "94"
+         endingLineNumber = "94"
+         landmarkName = "-clickOperate:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FractionCalculator/FractionCalculatorViewController.m"
+         timestampString = "392647844.149014"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "173"
+         endingLineNumber = "173"
+         landmarkName = "-clickConvert:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FractionCalculator/FractionCalculatorViewController.m"
+         timestampString = "392647720.838424"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
          startingLineNumber = "89"
          endingLineNumber = "89"
+         landmarkName = "-clickOperate:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FractionCalculator/FractionCalculatorViewController.m"
+         timestampString = "392647864.104711"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "90"
+         endingLineNumber = "90"
          landmarkName = "-clickOperate:"
          landmarkType = "5">
       </FileBreakpoint>

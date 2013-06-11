@@ -8,7 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import "Fraction.h"
-#import "CommonVariable.h"
 @interface FractionCalculatorBrain : NSObject
 @property (strong, nonatomic)Fraction *operand1, *operand2, *accumulator;
 
