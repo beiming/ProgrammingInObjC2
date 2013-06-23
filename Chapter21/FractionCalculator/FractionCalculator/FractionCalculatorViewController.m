@@ -92,20 +92,29 @@
         return;
     }
     currentNumber = [currentNumberString intValue];
-    if(isNumerator)
+    if(currentNumber == 0 &&
+       [sender.currentTitle isEqualToString:SUBTRACT_STRING])
     {
-        brain.operand1.numerator = currentNumber;
+        [currentNumberString setString:SUBTRACT_STRING];
+        [self.display setText:SUBTRACT_STRING];
     }
     else
     {
-        brain.operand1.donominator = currentNumber;
+        if(isNumerator)
+        {
+            brain.operand1.numerator = currentNumber;
+        }
+        else
+        {
+            brain.operand1.donominator = currentNumber;
+        }
+        operate = sender.currentTitle;
+        [self setDisplayText:operateToDisplay[operate]];
+        //点击一个运算符之后，输入的会是第二个操作数，会是新的一个数字，新的分子
+        firstOperand = NO;
+        isNewNumber = YES;
+        isNumerator = YES;
     }
-    operate = sender.currentTitle;
-    [self setDisplayText:operateToDisplay[operate]];
-    //点击一个运算符之后，输入的会是第二个操作数，会是新的一个数字，新的分子
-    firstOperand = NO;
-    isNewNumber = YES;
-    isNumerator = YES;
 }
 - (IBAction)clickOver:(id)sender {
     currentNumber = [currentNumberString intValue];

@@ -82,11 +82,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "FractionCalculator/FractionCalculatorViewController.m"
-         timestampString = "392647844.149014"
+         timestampString = "392705963.660582"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "173"
-         endingLineNumber = "173"
+         startingLineNumber = "182"
+         endingLineNumber = "182"
          landmarkName = "-clickConvert:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -114,6 +114,19 @@
          startingLineNumber = "90"
          endingLineNumber = "90"
          landmarkName = "-clickOperate:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "Yes"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "FractionCalculator/FractionCalculatorViewController.m"
+         timestampString = "392707250.927403"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "82"
+         endingLineNumber = "82"
+         landmarkName = "-clickDigit:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>
